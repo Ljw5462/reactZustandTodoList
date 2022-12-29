@@ -25,8 +25,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "ga-pages -d build"
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "homepage": "https://ljw5462.github.io/reactZustandTodoList/",
   "eslintConfig": {
