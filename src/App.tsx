@@ -49,9 +49,6 @@ function App() {
   const {addTodo, removeTodo, toggleCompletedState, todos} = useStore();
   
   const onKeyDown = useCallback((e : KeyboardEvent<HTMLInputElement>) : void =>{
-      // if (!todoText.trim()) {
-      //       return;
-      //     }
     if(e.key === 'Enter'){
         addTodo(todoText);
         setTodoText('');
