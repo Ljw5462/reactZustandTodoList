@@ -24,9 +24,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy" : "npm run build",
+    "deploy" : "ga-pages -d build"
   },
-  "homepage" : "https://ljw5462.github.io/reactZustandTodoList"
+  "homepage" : "https://ljw5462.github.io/reactZustandTodoList/",
   "eslintConfig": {
     "extends": [
       "react-app",
